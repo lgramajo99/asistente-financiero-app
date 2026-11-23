@@ -1,6 +1,6 @@
 import { useState } from "react";
-import WelcomeHeader from "../components/WelcomeHeader";
-import SummaryCard from "../components/SummaryCard";
+import WelcomeHeader from "../components/transactions/WelcomeHeader";
+import SummaryCard from "../components/dashbord/SummaryCard";
 import {
   userData,
   financialSummary,
@@ -8,7 +8,7 @@ import {
   recentTransactions,
 } from "../data/data";
 
-import RecentTransactions from "../components/RecentTransactions";
+import RecentTransactions from "../components/transactions/RecentTransactions";
 
 export default function Dashboard() {
   const [period, setPeriod] = useState("Este mes");

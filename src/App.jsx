@@ -1,4 +1,3 @@
-
 import "./App.css";
 import { useState } from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
@@ -7,6 +6,7 @@ import Sidebar from "./components/Sidebar";
 
 // Pages
 import Dashboard from "./pages/Dashboard";
+import Transactions from "./pages/Transactions";
 import ErrorPage from "./pages/Errorpage";
 
 function App() {
@@ -14,7 +14,6 @@ function App() {
 
   return (
     <section className="min-h-screen">
-
       {/* Sidebar */}
       <Sidebar
         isOpen={sidebarOpen}
@@ -24,29 +23,19 @@ function App() {
 
       {/* Contenido principal */}
       <main className="min-h-screen bg-slate-50 lg:ml-64">
-
         <Routes>
           {/* Ruta principal */}
-          <Route
-            path="/"
-            element={<Navigate to="/dashboard" replace />}
-          />
+          <Route path="/" element={<Navigate to="/dashboard" replace />} />
 
           {/* Dashboard */}
-          <Route
-            path="/dashboard"
-            element={<Dashboard />}
-          />
+          <Route path="/dashboard" element={<Dashboard />} />
+          {/* Movimientos */}
+          <Route path="/movimientos" element={<Transactions />} />
 
           {/* Página de error 404 */}
-          <Route
-            path="*"
-            element={<ErrorPage />}
-          />
+          <Route path="*" element={<ErrorPage />} />
         </Routes>
-
       </main>
-
     </section>
   );
 }
