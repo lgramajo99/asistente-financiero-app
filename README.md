@@ -1,16 +1,108 @@
-# Balancea
+# BALANCEA 💰
+### Tu dinero, bajo control. Tus decisiones, más inteligentes.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+BALANCEA es un asistente financiero personal que busca simplificar la administración del dinero mediante una plataforma web y un asistente conversacional integrado con WhatsApp.
 
-Currently, two official plugins are available:
+Su objetivo no es solamente registrar ingresos y gastos, sino transformar esos datos en información útil para ayudar a los usuarios a comprender su situación económica, identificar hábitos de consumo, prevenir problemas financieros y tomar mejores decisiones.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+La idea es que administrar las finanzas personales deje de ser una tarea tediosa y se convierta en un hábito sencillo y accesible.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🎯 Objetivo del proyecto
 
-## Expanding the ESLint configuration
+Desarrollar una herramienta que permita a cualquier persona gestionar sus finanzas personales de manera simple, automatizada e inteligente.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+BALANCEA busca reducir la fricción del registro financiero: en lugar de completar formularios cada vez que se realiza una operación, el usuario puede simplemente enviar un mensaje por WhatsApp y dejar que el asistente se encargue del resto.
+
+## ✨ Funcionalidades
+
+### 📊 Gestión financiera
+- Registro de ingresos y egresos.
+- Clasificación de movimientos por categorías.
+- Visualización del balance financiero.
+- Historial y seguimiento de transacciones.
+- Análisis de ingresos y gastos.
+
+### 💬 Asistente por WhatsApp
+- Registro de movimientos mediante mensajes.
+- Interpretación de operaciones en lenguaje natural.
+- Confirmación de movimientos registrados.
+- Consultas sobre el estado de las finanzas.
+- Notificaciones y alertas personalizadas.
+
+### 🧠 Inteligencia financiera
+- Identificación de patrones de consumo.
+- Detección de gastos innecesarios o elevados.
+- Recomendaciones personalizadas.
+- Seguimiento de presupuestos.
+- Alertas sobre posibles desequilibrios financieros.
+
+### 🌱 Objetivos futuros
+- Integración con inteligencia artificial.
+- Análisis predictivo de gastos.
+- Conexión con entidades bancarias.
+- Sincronización automática de movimientos.
+- Asesoramiento financiero personalizado.
+
+---
+
+## 🖥️ Plataforma
+
+BALANCEA está pensada para funcionar mediante dos canales complementarios:
+
+| Plataforma | Propósito |
+|---|---|
+| Aplicación web | Visualizar, administrar y analizar las finanzas. |
+| WhatsApp | Registrar operaciones y recibir información de forma rápida. |
+
+La aplicación web funciona como centro de control, mientras que WhatsApp permite interactuar con el asistente sin necesidad de ingresar constantemente a la plataforma.
+
+---
+
+## 🛠️ Tecnologías
+
+El proyecto contempla una arquitectura Full Stack. Las tecnologías se irán incorporando a medida que avance el desarrollo.
+
+**Frontend**
+- React
+- JavaScript
+- CSS
+
+**Backend**
+- Por definir
+
+**Base de datos**
+- Por definir
+
+**Integraciones futuras**
+- WhatsApp Business Platform
+- Inteligencia artificial mediante APIs de modelos de lenguaje.
+
+---
+
+## 🚀 Visión del proyecto
+
+BALANCEA busca evolucionar de un simple gestor de finanzas personales a un asistente inteligente capaz de comprender el comportamiento económico de cada usuario.
+
+La visión es que cualquier persona pueda preguntarle a BALANCEA cuánto gastó, cuánto puede ahorrar, qué gastos debería reducir o cómo está evolucionando su economía, y recibir respuestas basadas en sus propios datos.
+
+No se trata solamente de saber cuánto dinero tenemos, sino de entender cómo lo utilizamos y cómo podemos mejorarlo.
+
+---
+
+## 📌 Estado del proyecto
+
+<sub>En desarrollo 🚧</sub>
+
+BALANCEA se encuentra en una etapa inicial de desarrollo. Las funcionalidades se implementarán progresivamente, comenzando por la plataforma web y avanzando hacia la integración con WhatsApp y las capacidades de inteligencia artificial.
+
+---
+
+## 💡 Filosofía
+
+**Administrar el dinero no debería ser complicado.**
+
+BALANCEA busca eliminar la fricción del control financiero y convertirlo en un hábito simple, accesible y útil.
+
+**BALANCEA — Entendé tu dinero. Mejorá tus decisiones.**
